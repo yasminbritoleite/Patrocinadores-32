@@ -1,0 +1,49 @@
+
+body {
+    margin: 0; /* Remove espaçamento padrão do navegador */
+    font-family: Tahoma; /* Fonte do site */
+    background-color: #e6e6e6; /* Cor de fundo da página */
+}
+
+/*  Header */
+header {
+    background-color: #f1f1f1; /* Fundo cinza claro */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Seção de marcas  */
+.marcas {
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza os boxes horizontalmente */
+    flex-wrap: wrap; /* Permite quebrar a linha em telas pequenas */
+    gap: 25px; /* Espaçamento entre os boxes */
+    padding: 50px 20px; /* Espaçamento interno da seção */
+}
+
+.marca {
+    background-color: #ff7cab; /* Cor do box do patrocinador */
+    border-radius: 60px;  /* Bordas arredondadas */
+    width: 230px;          /* Largura fixa */
+    height: 230px;         /* Altura fixa */
+    display: flex;         /* Layout flex dentro do box */
+    align-items: center;   /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+}
+
+.marca img {
+    max-width: 180px;  /* Limite de largura da imagem */
+    max-height: 180px; /* Limite de altura da imagem */
+    border-radius: 12px; /* Cantos arredondados da imagem */
+}
+
+
+footer {
+    background-color: #f1f1f1; /* Fundo cinza claro */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px; /* Espaçamento interno */
+    color: #7e7e7e; /* Cor do texto */
+    font-size: 14px; /* Tamanho da fonte */
+    
+}
+
